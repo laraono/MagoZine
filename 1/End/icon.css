@@ -1,0 +1,25 @@
+html
+{
+	background-image: url('/Media/evabackground.png');
+		  background-position: center;
+		  background-repeat: repeat;
+		  background-size: cover;
+		   overflow-x: hidden; /* Hide scrollbar */
+}
+
+#return{
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	z-index: 100;
+}
+
+.footer{
+	position: absolute;
+	height: 25%;
+	width: 100%;
+}
+
+#footerbg {
+	width: 100%;
+}
