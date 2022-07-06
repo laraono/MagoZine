@@ -1,11 +1,7 @@
 
 html {
-	  background-image: url('/Media/BackgroundMago.png');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-		
-		overflow-x: hidden; /* Hide scrollbar */
+	background: url('/Media/BackgroundMago.png') no-repeat center cover;		
+	overflow-x: hidden; /* Hide scrollbar */
 }
 body, html {
   height: 100%;
@@ -20,17 +16,12 @@ body, html {
 }
 
 #logo{
-	z-index: 99;
+	z-index: 2;
 }
 
 #paper {
-	background-image: url('/Media/paper.png');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	padding-top: 11px;
-    padding-left: 79px;
-    padding-right: 41px;
+	background: url('/Media/paper.png') no-repeat center cover;
+	padding: 11px 41px 0px 79px;
 	position: absolute;
 	left: 35%;
 	top: 45%;
@@ -39,17 +30,11 @@ body, html {
 }
 
 #widgets{
-background-image: url('/Media/paper.png');
-		background-position: center;
-		background-repeat: no-repeat;
-		background-size: cover;
-	padding-top: 11px;
-	padding-bottom: 11px;
-    padding-left: 79px;
-    padding-right: 41px;
+	background: url('/Media/paper.png') no-repeat center cover;
+	padding: 11px 79px 11px 41px;
 	position: absolute;
-  left: 2%;
-  bottom: 10%;
+	left: 2%;
+  	bottom: 10%;
 	width: 300px;
 }
 
@@ -64,7 +49,7 @@ background-image: url('/Media/paper.png');
 }
 
 #text p {
-	font-size: 19px;
+	font: cursive 19px;
 	font-family: cursive;
 	text-align: justify;
 }
