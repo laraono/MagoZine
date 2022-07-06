@@ -3,6 +3,8 @@ body, html {
   width:100%;
    overflow: hidden; /* Hide scrollbar */
 }
+
+/* Index page */ 
 /* Background image */
 .bg {
   background-image: black url('/Media/Background.png') no-repeat center cover;
